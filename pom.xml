@@ -7,6 +7,14 @@
   <version>1.0-SNAPSHOT</version>
   <name>sample</name>
   <url>http://maven.apache.org</url>
+  <profiles>
+    <profile>
+        <id>meaningful-name-here</id>
+        <properties>
+            <overallParams>${defaultParams2}</overallParams>
+        </properties>
+    </profile>
+</profiles>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
