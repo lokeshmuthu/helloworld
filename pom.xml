@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   <profiles>
     <profile>
-        <id>meaningful-name-here</id>
+        <id>profile1</id>
         <properties>
             <overallParams>${defaultParams2}</overallParams>
         </properties>
